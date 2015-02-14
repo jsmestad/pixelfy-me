@@ -1,10 +1,8 @@
 import Ember from 'ember';
-import Image from '../models/image';
+import imageData from '../utils/image-data';
 
 export default Ember.Route.extend({
   model: function() {
-    return [
-      Image.create({url: '/img/flippin-sweet.jpg', id: "1"})
-    ];
+    return imageData();
   }
 });
