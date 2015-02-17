@@ -21,6 +21,18 @@ export default function imageData(id) {
     "5": {
       id: "5",
       url: "/img/so-fetch.jpg"
+    },
+    "6": {
+      id: "6",
+      url: "/img/thought-leader.jpg"
+    },
+    "7": {
+      id: "7",
+      url: "/img/dowager-countess.jpg"
+    },
+    "8": {
+      id: "8",
+      url: "/img/yeezus.jpg"
     }
   };
   if(arguments.length) {
